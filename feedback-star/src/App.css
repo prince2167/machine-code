@@ -1,0 +1,12 @@
+.rating-conatiner {
+  display: flex;
+}
+
+.star {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: fill 250ms ease-in-out;
+}
+.star_filled {
+  fill: red;
+}
