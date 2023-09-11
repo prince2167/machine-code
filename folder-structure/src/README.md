@@ -1,0 +1,1 @@
+Given a data object resembling a folder structure, create a folder structure UI resembling that of VS code with appropriate functionalities.

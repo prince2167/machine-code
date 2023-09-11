@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  padding: 1rem;
+  font-size: 18px;
+}
+.folder,
+.file {
+  cursor: pointer;
+}
+.children {
+  padding-left: 1rem;
+}
