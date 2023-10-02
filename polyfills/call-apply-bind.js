@@ -70,7 +70,7 @@ Function.prototype.myBind = function (...args) {
   let obj = this;
   let parmas = args.slice(1);
   return function (...newArgs) {
-    obj.call(args[0], [...parmas, ...newArgs]);
+    obj.apply(args[0], [...parmas, ...newArgs]);
   };
 };
 
