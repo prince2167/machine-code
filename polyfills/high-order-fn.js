@@ -24,7 +24,7 @@ num.myForEach((element) => {
 
 // pllyfill of map
 
-// const result = num.map((el, index, array) => el * 2);
+const result = num.map((el, index, array) => el * 2);
 console.log(result);
 
 // input ---> cb
