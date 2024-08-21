@@ -39,8 +39,8 @@ const Navbar = () => {
 
   const [show, setShow] = useState(false);
   return (
-    <nav className="w-full bg-[#2874f0] px-10 py-1 flex justify-center relative">
-      <div className="w-[1150px]  flex justify-between items-center flex-wrap">
+    <nav className="w-full sticky top-0 bg-[#2874f0] px-10 py-1 flex justify-center ">
+      <div className="w-[1150px]  flex justify-between items-center flex-wrap relative">
         <div className="flex items-center max-w-[650px] w-full gap-4 ">
           <div>
             <h1 className="text-white font-bold text-xl italic">Flipkart</h1>
@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       {show && (
-        <ul className="w-[300px] absolute top-16 right-20">
+        <ul className="w-[300px] absolute top-16 right-20 shadow-">
           <li className="bg-white border border-gray-300 flex justify-between p-4 text-[14px] font-[500]">
             <p>New Customer?</p>
             <p className="text-[#2874f0]">Signup</p>

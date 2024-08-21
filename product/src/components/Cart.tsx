@@ -27,7 +27,7 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className="bg-red-500 w-[400px]">Checkout</div>
+        <div className="bg-red-500 w-[400px] sticky top-16">Checkout</div>
       </div>
     </div>
   );
