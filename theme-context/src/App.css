@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.dark-mode {
+  background-color: #1a202c;
+  color: #ecedef;
+}
+.light-mode {
+  background-color: #ecedef;
+  color: #1a202c;
+}
